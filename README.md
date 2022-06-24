@@ -141,8 +141,17 @@ function watchTask(){
 
 exports.default = series(buildStyles, watchTask)
 ```
-- Modify _index.scss
+- Modify _index.scss inside shinobi folder 
 ```
-@import 'base';
+// variables & functions goes here
 @import 'variables';
+
+// base goes here
+@import 'base';
+
+// colors goes here
+
+// compononent(button,card,navbar etc) goes here
+
+// utilitiies goes here (margin class, paddign class, opacity etc)
 ```

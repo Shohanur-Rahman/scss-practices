@@ -52,7 +52,24 @@ npm install gulp gulp-cli
 
 - Hit gulp again in your terminal
 
-* ps1 cannot be loaded because running scripts is disabled on this system
+* Error: ps1 cannot be loaded because running scripts is disabled on this system
 ```
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+```
+- Hit gulp 
+- Open index.html in browser.
+
+# Variable Declearation in SCSS
+- Declear a variable by using $
+- Examples:
+```
+    $primaryColor: #326dee;
+    $secondaryColor: #1ac888;
+    $errorColor: #d32752;
+    $infoColor: #f6c31c;
+    $alignCenter: center;
+    $h100: 100%;
+    $basePadding: 15px;
+    $whiteColor: #fff;
+    $textUppercase: uppercase;
 ```

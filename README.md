@@ -1,2 +1,2 @@
 # scss-practices
-Prcatices SCSS
+Syntactically Awesome Style Sheets (Sass)

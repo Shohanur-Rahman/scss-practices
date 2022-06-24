@@ -155,3 +155,7 @@ exports.default = series(buildStyles, watchTask)
 
 // utilitiies goes here (margin class, paddign class, opacity etc)
 ```
+
+
+# Nested Rules
+- **Lets start a component Like Card Component**

@@ -25,7 +25,7 @@ return src('*.scss')
 
 
 function watchTask(){
-watch('*.scss', buildStyles);
+watch(['*.scss'], buildStyles);
 }
 
 exports.default = series(buildStyles, watchTask)
@@ -91,3 +91,58 @@ $themeColor: #000;
 ```
 Not need to file name extension
 
+# Project Structure
+- Create a folder for shinobi
+- Create a .scss file in shinobi folder call _base.scss
+- Make your _base.scss by your own code: Example
+```
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Roboto:wght@100&display=swap');
+*{
+    color: inherit;
+    margin: 0;
+}
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+hr{
+    border: 0;
+    border-top: 1px solid #efefef;
+}
+```
+- Modify your gulpfile.js
+```
+const {src, dest, watch, series} = require('gulp')
+const sass = require('gulp-sass')(require('sass'))
+
+function buildStyles() {
+  return src('shinobi/**/*.scss')
+    .pipe(sass())
+    .pipe(dest('./css'));
+};
+
+
+function watchTask(){
+  watch(['shinobi/**/*.scss'], buildStyles);
+}
+
+exports.default = series(buildStyles, watchTask)
+```
+- Modify _index.scss
+```
+@import 'base';
+@import 'variables';
+```

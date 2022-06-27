@@ -245,7 +245,6 @@ $colors: (
 # Loops
 - for loop
 ```
-SCSS SYNTAX
 $base-color: #036;
 
 @for $i from 1 through 3 {
@@ -272,5 +271,45 @@ $value: 500;
 $base: 50;
 @while $value > $base {
     $value: math.div($value, $ratio);
+}
+```
+
+#Parent Selectors
+- use & for parent selector
+```
+.text-hover-#{$key}{
+    &:hover{
+        color: $val;
+    }
+}
+```
+
+# Mixins
+```
+@mixin btn($bg-color) {
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    border: none;
+    padding: $base-spacing $base-spacing*2;
+    border-radius: $base-border-radius;
+    background-color: $bg-color;
+}
+
+@each $key, $val in $colors {
+    .btn-#{$key}{
+        @include btn($val);
+        &:hover{
+            background-color: lighten($val, 8);
+        }
+    }
+
+    .btn-#{$key}-outline{
+        @include btn(#fff);
+        border: $base-border-thickness solid $val;
+        &:hover{
+            background-color: lighten($val, 5);
+        }
+    }
 }
 ```

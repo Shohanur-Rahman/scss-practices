@@ -10,6 +10,17 @@ $align-center: center;
 $white-color: #fff;
 $black-color: #000;
 
+
+// color plates
+$colors: (
+    "primary": $primary-color,
+    "secondary": $secondary-color,
+    'error': $error-color,
+    "info": $info-color,
+    "white": $white-color,
+    "black": $black-color
+);
+
 // spacing
 $base-spacing: 0.75rem;
 $base-margin: 0.75rem;

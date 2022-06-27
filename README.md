@@ -201,3 +201,18 @@ exports.default = series(buildStyles, watchTask)
 @debug math.min(50px, 30px, 100px); // 30px
 ```
 - More **https://sass-lang.com/documentation/modules/math**
+
+# Maps
+- How to map css in SCSS
+```
+$colors: (
+    "primary": $primary-color,
+    "secondary": $secondary-color,
+    'error': $error-color,
+    "info": $info-color,
+    "white": $white-color,
+    "black": $black-color
+);
+
+@debug map-get($colors, "primary"); // For output
+```

@@ -241,3 +241,36 @@ $colors: (
 @debug map-get($colors, "primary"); // For output
 ```
 - More **https://sass-lang.com/documentation/values/maps**
+
+# Loops
+- for loop
+```
+SCSS SYNTAX
+$base-color: #036;
+
+@for $i from 1 through 3 {
+  ul:nth-child(3n + #{$i}) {
+    background-color: lighten($base-color, $i * 5%);
+  }
+}
+```
+- each loop
+```
+$sizes: 40px, 50px, 80px;
+
+@each $size in $sizes {
+  .icon-#{$size} {
+    font-size: $size;
+    height: $size;
+    width: $size;
+  }
+}
+```
+- while loop
+```
+$value: 500;
+$base: 50;
+@while $value > $base {
+    $value: math.div($value, $ratio);
+}
+```

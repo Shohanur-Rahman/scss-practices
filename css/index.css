@@ -30,6 +30,62 @@ hr {
   border-top: 1px solid #efefef;
 }
 
+.text-blue {
+  color: #0d6efd;
+}
+
+.text-indigo {
+  color: #6610f2;
+}
+
+.text-purple {
+  color: #6f42c1;
+}
+
+.text-pink {
+  color: #d63384;
+}
+
+.text-red {
+  color: #dc3545;
+}
+
+.text-orange {
+  color: #fd7e14;
+}
+
+.text-yellow {
+  color: #ffc107;
+}
+
+.text-green {
+  color: #198754;
+}
+
+.text-teal {
+  color: #20c997;
+}
+
+.text-cyan {
+  color: #0dcaf0;
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-gray {
+  color: #6c757d;
+}
+
+.text-gray-dark {
+  color: #343a40;
+}
+
 .card {
   display: block;
   padding: 0.75rem;
@@ -38,7 +94,7 @@ hr {
   border-radius: 5px;
 }
 .card .card-title {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding: 0.75rem;
   color: #000;
   border-bottom: 1px solid #ddd;

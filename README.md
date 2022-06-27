@@ -185,6 +185,30 @@ exports.default = series(buildStyles, watchTask)
 - Create a folder components under shinobi folder
 - Create a .scss file called _card.scss
 - Style a card design here
+```
+@use 'sass:math';
+
+.card{
+    display: block;
+    padding: $base-spacing;
+    border: $base-border-thickness solid #ddd;
+    box-shadow: $base-box-shadow;
+    border-radius: math.div($base-border-radius,4);
+    .card-title{
+        font-size: $font-size-lg;
+        padding: $base-spacing;
+        color: $black-color;
+        border-bottom: $base-border-thickness solid #ddd;
+        a{
+            text-decoration: $base-text-decoration;
+        }
+    }
+    .card-body{
+        padding: $base-spacing;
+    }
+}
+```
+- More **https://sass-lang.com/documentation/style-rules**
 
 # SCSS Arithmetic operations
 - SCSS Debug
@@ -216,3 +240,4 @@ $colors: (
 
 @debug map-get($colors, "primary"); // For output
 ```
+- More **https://sass-lang.com/documentation/values/maps**

@@ -273,8 +273,9 @@ $base: 50;
     $value: math.div($value, $ratio);
 }
 ```
+- More **https://sass-lang.com/documentation/values/maps**
 
-#Parent Selectors
+# Parent Selectors
 - use & for parent selector
 ```
 .text-hover-#{$key}{
@@ -283,6 +284,7 @@ $base: 50;
     }
 }
 ```
+- More **https://sass-lang.com/documentation/style-rules/parent-selector**
 
 # Mixins
 ```
@@ -313,8 +315,9 @@ $base: 50;
     }
 }
 ```
+- More **https://sass-lang.com/documentation/at-rules/mixin**
 
-# functions
+# Functions
 - Create a file _functions.scss
 ```
 @function light-comp($color){
@@ -334,3 +337,4 @@ $base: 50;
     }
 }
 ```
+- More **https://sass-lang.com/documentation/at-rules/function**

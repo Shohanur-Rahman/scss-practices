@@ -141,7 +141,7 @@ function watchTask(){
 
 exports.default = series(buildStyles, watchTask)
 ```
-- Modify _index.scss inside shinobi folder 
+- Modify index.scss inside shinobi folder 
 ```
 // variables & functions goes here
 @import 'variables';
@@ -158,4 +158,23 @@ exports.default = series(buildStyles, watchTask)
 
 
 # Nested Rules
-- **Lets start a component Like Card Component**
+**Lets start a component Like Card Component**
+- Create a folder components under shinobi folder
+- Create a .scss file called _card.scss
+- Style a card design here
+
+# SCSS Arithmetic operations
+- SCSS Debug
+```
+@debug 'Hello World';
+```
+- SCSS Math functions
+```
+@use 'sass:math';
+@debug math.div(50,5);
+@debug math.floor(4.2);
+@debug math.clamp(1px, -1px, 10px); // 1px
+@debug math.max(50px, 30px, 100px);// 100px
+@debug math.min(50px, 30px, 100px); // 30px
+```
+- More **https://sass-lang.com/documentation/modules/math**

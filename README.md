@@ -313,3 +313,24 @@ $base: 50;
     }
 }
 ```
+
+# functions
+- Create a file _functions.scss
+```
+@function light-comp($color){
+    $compliment: complement($color);
+    $light-complement: lighten($compliment, 30%);
+    @return $light-complement;
+}
+```
+
+- Call this function from button style
+```
+.btn-complement-#{$key}{
+    @include btn($val);
+    color: light-comp($val);
+    &:hover{
+        color: $val;
+    }
+}
+```

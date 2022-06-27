@@ -3489,6 +3489,20 @@ hr {
   background-color: #267dfd;
 }
 
+.btn-complement-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #0d6efd;
+  color: #fedaa5;
+}
+.btn-complement-blue:hover {
+  color: #0d6efd;
+}
+
 .btn-indigo {
   text-decoration: none;
   cursor: pointer;
@@ -3514,6 +3528,20 @@ hr {
 }
 .btn-indigo-outline:hover {
   background-color: #7528f3;
+}
+
+.btn-complement-indigo {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #6610f2;
+  color: #d8faa1;
+}
+.btn-complement-indigo:hover {
+  color: #6610f2;
 }
 
 .btn-purple {
@@ -3543,6 +3571,20 @@ hr {
   background-color: #7e55c7;
 }
 
+.btn-complement-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #6f42c1;
+  color: #d5e7b5;
+}
+.btn-complement-purple:hover {
+  color: #6f42c1;
+}
+
 .btn-pink {
   text-decoration: none;
   cursor: pointer;
@@ -3568,6 +3610,20 @@ hr {
 }
 .btn-pink-outline:hover {
   background-color: #da4891;
+}
+
+.btn-complement-pink {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #d63384;
+  color: #b2f0d1;
+}
+.btn-complement-pink:hover {
+  color: #d63384;
 }
 
 .btn-red {
@@ -3597,6 +3653,20 @@ hr {
   background-color: #e04b59;
 }
 
+.btn-complement-red {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #dc3545;
+  color: #b7f3ed;
+}
+.btn-complement-red:hover {
+  color: #dc3545;
+}
+
 .btn-orange {
   text-decoration: none;
   cursor: pointer;
@@ -3622,6 +3692,20 @@ hr {
 }
 .btn-orange-outline:hover {
   background-color: #fd8c2d;
+}
+
+.btn-complement-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fd7e14;
+  color: #acd9fe;
+}
+.btn-complement-orange:hover {
+  color: #fd7e14;
 }
 
 .btn-yellow {
@@ -3651,6 +3735,20 @@ hr {
   background-color: #ffc721;
 }
 
+.btn-complement-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #ffc107;
+  color: #a0b8ff;
+}
+.btn-complement-yellow:hover {
+  color: #ffc107;
+}
+
 .btn-green {
   text-decoration: none;
   cursor: pointer;
@@ -3676,6 +3774,20 @@ hr {
 }
 .btn-green-outline:hover {
   background-color: #1d9d61;
+}
+
+.btn-complement-green {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #198754;
+  color: #e05998;
+}
+.btn-complement-green:hover {
+  color: #198754;
 }
 
 .btn-teal {
@@ -3705,6 +3817,20 @@ hr {
   background-color: #26dca6;
 }
 
+.btn-complement-teal {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #20c997;
+  color: #ee94af;
+}
+.btn-complement-teal:hover {
+  color: #20c997;
+}
+
 .btn-cyan {
   text-decoration: none;
   cursor: pointer;
@@ -3730,6 +3856,20 @@ hr {
 }
 .btn-cyan-outline:hover {
   background-color: #23d0f3;
+}
+
+.btn-complement-cyan {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #0dcaf0;
+  color: #faac9c;
+}
+.btn-complement-cyan:hover {
+  color: #0dcaf0;
 }
 
 .btn-black {
@@ -3759,6 +3899,20 @@ hr {
   background-color: #0d0d0d;
 }
 
+.btn-complement-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #000;
+  color: #4d4d4d;
+}
+.btn-complement-black:hover {
+  color: #000;
+}
+
 .btn-white {
   text-decoration: none;
   cursor: pointer;
@@ -3784,6 +3938,20 @@ hr {
 }
 .btn-white-outline:hover {
   background-color: white;
+}
+
+.btn-complement-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  color: white;
+}
+.btn-complement-white:hover {
+  color: #fff;
 }
 
 .btn-gray {
@@ -3813,6 +3981,20 @@ hr {
   background-color: #78828a;
 }
 
+.btn-complement-gray {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #6c757d;
+  color: #c6c1bc;
+}
+.btn-complement-gray:hover {
+  color: #6c757d;
+}
+
 .btn-gray-dark {
   text-decoration: none;
   cursor: pointer;
@@ -3838,6 +4020,20 @@ hr {
 }
 .btn-gray-dark-outline:hover {
   background-color: #3f474e;
+}
+
+.btn-complement-gray-dark {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #343a40;
+  color: #93877a;
+}
+.btn-complement-gray-dark:hover {
+  color: #343a40;
 }
 
 .btn-primary {
@@ -3867,6 +4063,20 @@ hr {
   background-color: #267dfd;
 }
 
+.btn-complement-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #0d6efd;
+  color: #fedaa5;
+}
+.btn-complement-primary:hover {
+  color: #0d6efd;
+}
+
 .btn-secondary {
   text-decoration: none;
   cursor: pointer;
@@ -3892,6 +4102,20 @@ hr {
 }
 .btn-secondary-outline:hover {
   background-color: #78828a;
+}
+
+.btn-complement-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #6c757d;
+  color: #c6c1bc;
+}
+.btn-complement-secondary:hover {
+  color: #6c757d;
 }
 
 .btn-success {
@@ -3921,6 +4145,20 @@ hr {
   background-color: #1d9d61;
 }
 
+.btn-complement-success {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #198754;
+  color: #e05998;
+}
+.btn-complement-success:hover {
+  color: #198754;
+}
+
 .btn-info {
   text-decoration: none;
   cursor: pointer;
@@ -3946,6 +4184,20 @@ hr {
 }
 .btn-info-outline:hover {
   background-color: #23d0f3;
+}
+
+.btn-complement-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #0dcaf0;
+  color: #faac9c;
+}
+.btn-complement-info:hover {
+  color: #0dcaf0;
 }
 
 .btn-warning {
@@ -3975,6 +4227,20 @@ hr {
   background-color: #ffc721;
 }
 
+.btn-complement-warning {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #ffc107;
+  color: #a0b8ff;
+}
+.btn-complement-warning:hover {
+  color: #ffc107;
+}
+
 .btn-danger {
   text-decoration: none;
   cursor: pointer;
@@ -4000,6 +4266,20 @@ hr {
 }
 .btn-danger-outline:hover {
   background-color: #e04b59;
+}
+
+.btn-complement-danger {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #dc3545;
+  color: #b7f3ed;
+}
+.btn-complement-danger:hover {
+  color: #dc3545;
 }
 
 .btn-light {
@@ -4029,6 +4309,20 @@ hr {
   background-color: white;
 }
 
+.btn-complement-light {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #f8f9fa;
+  color: white;
+}
+.btn-complement-light:hover {
+  color: #f8f9fa;
+}
+
 .btn-dark {
   text-decoration: none;
   cursor: pointer;
@@ -4054,6 +4348,20 @@ hr {
 }
 .btn-dark-outline:hover {
   background-color: #2c3237;
+}
+
+.btn-complement-dark {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #212529;
+  color: #7e7265;
+}
+.btn-complement-dark:hover {
+  color: #212529;
 }
 
 .card {

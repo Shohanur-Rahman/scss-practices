@@ -68,15 +68,38 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 - Declear a variable by using $
 - Examples:
 ```
-$primaryColor: #326dee;
-$secondaryColor: #1ac888;
-$errorColor: #d32752;
-$infoColor: #f6c31c;
-$alignCenter: center;
-$h100: 100%;
-$basePadding: 15px;
-$whiteColor: #fff;
-$textUppercase: uppercase;
+// theme colors
+$primary-color: #326dee;
+$secondary-color: #1ac888;
+$error-color: #d32752;
+$info-color: #f6c31c;
+$align-center: center;
+$white-color: #fff;
+$black-color: #000;
+
+// spacing
+$base-spacing: 0.75rem;
+$base-margin: 0.75rem;
+
+
+// borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+// box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+
+// font-size
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
+
+// text styling
+$base-text-decoration: none;
+$underline-text: underline;
+$base-letter-spacing: 1px;
 ```
 
 # Import variables in SCSS
